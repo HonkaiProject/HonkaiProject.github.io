@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonKi Kim's Researches</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin: 0 0 20px;
+            text-align: center;
+        }
+        .sidebar h1 span {
+            color: #ccc;
+            font-size: 0.8em;
+            display: block;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: white;
+        }
+        .main-content h1 {
+            font-size: 2em;
+            margin: 0 0 20px;
+            text-transform: uppercase;
+        }
+        .main-content .research h2 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .main-content .research p {
+            line-height: 1.6;
+            color: #333;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Y.K. @<br>CERN</h1>
+            <h1>research of YoonKi Kim</h1>
+            <ul>
+                <li><a href="index.html"> Main</a></li>
+                <li><a href="researches.html">Researches</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                <li><a href="members.html">Members</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Ongoing Projects</h1>
+
+            <!-- Research Projects -->
+            <div class="research">
+                <h2>Black Hole Evolution: From Kerr to Schwarzschild</h2>
+                <p>
+                    To understand the evolution of rotating black holes, it is important to study the dynamics of angular momentum and energy extraction. Using theoretical thought experiments, I am investigating how the Penrose process affects the rotational energy of Kerr black holes and exploring the possibility of their transition into Schwarzschild black holes.
+                </p>
+
+                <h2>Quantum Field Theory: Yang-Mills Mass Gap</h2>
+                <p>
+                    The Yang-Mills mass gap problem is a fundamental challenge in quantum field theory. Using a novel Alpha Integration framework, I am working on proving the existence of a mass gap in SU(N) Yang-Mills theory, which has implications for quark-gluon confinement and the broader understanding of quantum field dynamics.
+                </p>
+
+                <h2>Analytic Number Theory: Riemann Hypothesis</h2>
+                <p>
+                    The Riemann Hypothesis is one of the most famous unsolved problems in mathematics. I am developing an inductive proof method to demonstrate that all non-trivial zeros of the Riemann zeta function lie on the critical line Re(s) = 0.5, using a combination of analytical and numerical techniques.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

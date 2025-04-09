@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonKi Kim's Research</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin: 0 0 20px;
+            text-align: center;
+        }
+        .sidebar h1 span {
+            color: #ccc;
+            font-size: 0.8em;
+            display: block;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: white;
+        }
+        .main-content h1 {
+            font-size: 2em;
+            margin: 0 0 20px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .main-content .intro {
+            margin-bottom: 40px;
+        }
+        .main-content .intro h2,
+        .main-content .cv h2,
+        .main-content .interests h2,
+        .main-content .history h2,
+        .main-content .contact h2 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .main-content .intro p {
+            line-height: 1.6;
+            color: #333;
+        }
+        .main-content .cv p,
+        .main-content .interests ul,
+        .main-content .history ul,
+        .main-content .contact p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .main-content .interests ul,
+        .main-content .history ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Y.K. @<br>CERN</h1>
+            <h1>YoonKi Kim's laboratory</h1>
+            <ul>
+                <li><a href="index.html"> Main</a></li>
+                <li><a href="researches.html">Researches</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                <li><a href="members.html">Members</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Welcome to here</h1>
+
+            <!-- Introduction -->
+            <div class="intro">
+                <h2>YoonKi Kim</h2>
+                <p>
+                    I am a researcher in the Department of Mathematics and Department of Physics at CERN. I'm a researcher working on the ring singularity of Kerr black holes, quantum physics, number theory, and calculus.
+                </p>
+                <p>
+                    My research interests center on the theoretical exploration of black hole dynamics and their evolutionary pathways, with a focus on energy extraction mechanisms and mathematical conjectures in extreme gravitational environments. To investigate these, I employ analytical methods, thought experiments, and novel mathematical frameworks, such as those presented in my works on Kerr-to-Schwarzschild transitions, the Riemann Hypothesis, and the Yang-Mills mass gap. My approach involves deriving fundamental relationships (e.g., angular momentum conservation, zeta function zeros, and gauge-invariant path integrals), validating them through rigorous proofs or numerical simulations, and interpreting their implications for astrophysics, number theory, and quantum field theory.
+                </p>
+            </div>
+
+            <!-- Research Interests -->
+            <div class="interests" id="interests">
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Black Hole Dynamics and Evolution</li>
+                    <li>Quantum Field Theory and Yang-Mills Theory</li>
+                    <li>Analytic Number Theory and the Riemann Hypothesis</li>
+                </ul>
+            </div>
+
+            <!-- Personal History -->
+            <div class="history" id="history">
+                <h2>Personal History</h2>
+                <ul>
+                    -
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact" id="contact">
+                <h2>Contact Information</h2>
+                <p>Email: honkai0509 (at) gmail (dot) com</p>
+                <p>Address: -</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
