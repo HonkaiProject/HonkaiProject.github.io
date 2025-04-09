@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoonKi Kim's Papers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .sidebar h1 {
+            font-size: 1.5em;
+            margin: 0 0 20px;
+            text-align: center;
+        }
+        .sidebar h1 span {
+            color: #ccc;
+            font-size: 0.8em;
+            display: block;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: white;
+        }
+        .main-content h1 {
+            font-size: 2em;
+            margin: 0 0 20px;
+            text-transform: uppercase;
+        }
+        .main-content .papers h2 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        .main-content .papers .paper {
+            margin-bottom: 20px;
+        }
+        .main-content .papers .paper h3 {
+            font-size: 1.2em;
+            margin: 0 0 5px;
+            color: #333;
+        }
+        .main-content .papers .paper .meta {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .main-content .papers .paper p {
+            margin: 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Y.K. Kim @<br><span>CERN</span></h1>
+            <h1>papers of YoonKi Kim</h1>
+            <ul>
+                <li><a href="index.html"> Main</a></li>
+                <li><a href="researches.html">Researches</a></li>
+                <li><a href="papers.html">Papers</a></li>
+                <li><a href="members">Simulations</a></li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <h1>Research Papers</h1>
+
+            <!-- Research Papers -->
+            <div class="papers">
+                <h2>Published Papers</h2>
+                <div class="paper">
+                    <ul>
+                        <li><a href="Papers/From Kerr to Schwarzschild A Thought Experiment.pdf"> From Kerr to Schwarzschild: A Thought Experiment on Black Hole Evolution</a></li>
+                    </ul>
+                        <div class="meta">YoonKi Kim | April 9, 2025</div>
+                    <p>
+                        This paper presents a thought experiment on the conservation of angular momentum in Kerr black holes, focusing on the Penrose process as a mechanism for energy extraction. We derive the relationships between the black hole's mass, angular momentum, and extractable energy, highlighting the impact of negative-energy particle ejection on rotational dynamics. For a solar-mass Kerr black hole, we calculate the ring singularity radius and demonstrate that up to 29.29% of the mass-energy can be extracted while preserving angular momentum constraints. The study suggests a novel evolutionary pathway: a Kerr black hole may transition into a Schwarzschild black hole upon complete rotational energy depletion.
+                    </p>
+                </div>
+                <div class="paper">
+                    <ul>
+                    <li><a href="Papers/Resolving the Yang-Mills Mass Gap Problem Using Alpha Integration"> Resolving the Yang-Mills Mass Gap Problem Using Alpha Integration</a></li>
+                    </ul>
+                    <div class="meta">YoonKi Kim | March 10, 2025</div>
+                    <p>
+                        We introduce Alpha Integration, a novel path integral framework that applies universally to a wide range of functions and spaces while preserving gauge invariance. This method resolves the Yang-Mills mass gap problem by proving a positive lowest eigenvalue (E₀ > 0) for the SU(N) Yang-Mills Hamiltonian in four-dimensional Euclidean spacetime, demonstrating a mass gap and quark-gluon confinement. Alpha Integration offers a robust alternative to traditional path integral techniques, with applications across theoretical and applied sciences.
+                    </p>
+                </div>
+                <div class="paper">
+                    <ul>
+                    <li><a href="Papers/An Inductive Proof of the Riemann Hypothesis"> An Inductive Proof of the Riemann Hypothesis</a></li>
+                    </ul>
+                    <div class="meta">YoonKi Kim | April 4, 2025</div>
+                    <p>
+                        This paper presents a rigorous inductive proof that all non-trivial zeros of the Riemann zeta function lie on the critical line Re(s) = 0.5, proving the Riemann Hypothesis. Using a novel "impossibility of zero migration" method and exhaustive analytical and numerical validations, we demonstrate that zeros cannot deviate from σ = 0.5 within the critical strip (0 < σ < 1), establishing the hypothesis's truth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
